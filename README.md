@@ -1,5 +1,5 @@
 
-(copied from https://github.com/rgl/windows-domain-controller-vagrant/blob/master/Vagrantfile)
+(copied from https://github.com/rgl/windows-domain-controller-vagrant)
 
 This is an example on how to create a Windows Domain Controller using Vagrant and PowerShell.
 
