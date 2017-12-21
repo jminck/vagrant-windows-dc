@@ -1,4 +1,6 @@
 
+(copied from https://github.com/rgl/windows-domain-controller-vagrant/blob/master/Vagrantfile)
+
 This is an example on how to create a Windows Domain Controller using Vagrant and PowerShell.
 
 This also shows how to add a Computer to an existing domain using PowerShell.
