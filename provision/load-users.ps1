@@ -1,8 +1,9 @@
-Import-Module ActiveDirectory 
+Import-Module ActiveDirectory
+New-ADOrganizationalUnit -Name "Employees"
 $Users = Import-Csv -Delimiter ";" -Path ".\userslist.csv"  
 foreach ($User in $Users)  
 {  
-    $OU = "OU=Employees,DC=lab-os,DC=com"  
+    $OU = "OU=Employees,DC=example,DC=com"  
     $Password = $User.password 
     $Detailedname = $User.firstname + " " + $User.name 
     $UserFirstname = $User.Firstname 
